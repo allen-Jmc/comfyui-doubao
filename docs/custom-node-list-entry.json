@@ -1,9 +1,0 @@
-{
-  "author": "allen-Jmc",
-  "title": "ComfyUI JmcAI (Doubao/Seedream 4.0)",
-  "id": "comfyui-jmcai",
-  "reference": "https://github.com/allen-Jmc/comfyui-jmcai",
-  "files": ["https://github.com/allen-Jmc/comfyui-jmcai"],
-  "install_type": "git-clone",
-  "description": "Multi-platform AI nodes. Currently Volcengine Doubao chat and Seedream 4.0 image generation."
-}
