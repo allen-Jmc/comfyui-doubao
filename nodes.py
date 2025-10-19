@@ -461,9 +461,9 @@ NODE_CLASS_MAPPINGS = {
 
 # 节点显示名称映射
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "VolcengineChatAPI": "火山引擎对话API",
-    "VolcengineSeedream4TextToImage": "火山引擎Seedream 4.0文生图",
-    "VolcengineSeedream4ImageToImage": "火山引擎Seedream 4.0图生图",
-    "VolcengineSeedream4MultiImageFusion": "火山引擎Seedream 4.0多图融合",
-    "VolcengineSeedream4StreamOutput": "火山引擎Seedream 4.0流式输出",
+    "VolcengineChatAPI": "Doubao Chat（火山引擎对话API）",
+    "VolcengineSeedream4TextToImage": "Doubao Seedream4 文生图",
+    "VolcengineSeedream4ImageToImage": "Doubao Seedream4 图生图",
+    "VolcengineSeedream4MultiImageFusion": "Doubao Seedream4 多图融合",
+    "VolcengineSeedream4StreamOutput": "Doubao Seedream4 流式输出",
 }
