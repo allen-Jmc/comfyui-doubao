@@ -87,3 +87,16 @@
 
 ## 反馈与改进
 - 欢迎提交问题与需求；如需新增尺寸预设或更多示例工作流，可在 `issues` 中提出。
+
+## 通过 ComfyUI 管理器安装
+- 在 ComfyUI 插件管理器中选择“通过 URL 安装”，填入仓库地址：`https://github.com/allen-Jmc/comfyui-doubao.git`。
+- 若希望在管理器内可搜索到：需要到该管理器的索引仓库提交 PR，将本仓库加入索引列表（不同管理器索引仓库与文件位置不同）。
+
+## 许可证
+- 本项目使用 `MIT` 许可证。详见仓库根目录 `LICENSE`。
+
+## 快速安装（另一种方式）
+- 将仓库克隆到 ComfyUI 的 `custom_nodes` 目录：
+  - `cd ~/ComfyUI/custom_nodes && git clone https://github.com/allen-Jmc/comfyui-doubao.git`
+  - `cd comfyui-doubao && pip install -r requirements.txt`
+- 重启 ComfyUI，在节点面板搜索 `Doubao`，并导入 `example_workflows/*.json` 体验。
