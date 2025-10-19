@@ -20,7 +20,6 @@
   - `Doubao Seedream4 流式输出`
 
 ## 安装
-> 仓库已重命名为 `comfyui-jmcai`，请使用新地址。
 
 - 通过 ComfyUI-Manager（URL 安装）：
   1. 打开 ComfyUI-Manager → `Install custom nodes`
@@ -55,5 +54,6 @@
 ## 许可证
 - MIT（见 `LICENSE`）
 
-## 变更日志
-- v0.2.0：重命名为 `ComfyUI-JmcAI`，统一分类为 `JmcAI/Doubao`；优化节点显示名称以便搜索。
+## 版本说明
+- 当前支持：火山引擎 Doubao Chat 与 Seedream 4.0 图片生成相关 API（文生图、图生图、多图融合、流式输出）。
+- 后续：新增其他平台或 API 时将在此章节更新说明。
