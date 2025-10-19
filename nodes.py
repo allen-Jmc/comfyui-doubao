@@ -35,7 +35,7 @@ class VolcengineChatAPI:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("response",)
     FUNCTION = "generate_chat"
-    CATEGORY = "Doubao"
+    CATEGORY = "JmcAI/Doubao"
     
     def generate_chat(self, api_key, model, prompt, system_prompt="", temperature=0.7, max_tokens=1024, image=None):
         url = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
@@ -290,7 +290,7 @@ class VolcengineSeedream4TextToImage(VolcengineImageGenerationBase):
     RETURN_TYPES = ("IMAGE", "STRING",)
     RETURN_NAMES = ("image", "info",)
     FUNCTION = "generate_image"
-    CATEGORY = "Doubao"
+    CATEGORY = "JmcAI/Doubao"
     
     def generate_image(self, api_key, model, prompt, size="2048×2048 (1:1)", sequential_image_generation="disabled", seed=-1, watermark=False, max_images=1):
         size_norm = self.normalize_size(size)
@@ -330,7 +330,7 @@ class VolcengineSeedream4ImageToImage(VolcengineImageGenerationBase):
     RETURN_TYPES = ("IMAGE", "STRING",)
     RETURN_NAMES = ("image", "info",)
     FUNCTION = "generate_image"
-    CATEGORY = "Doubao"
+    CATEGORY = "JmcAI/Doubao"
     
     def generate_image(self, api_key, model, prompt, image, size="2048×2048 (1:1)", sequential_image_generation="disabled", seed=-1, watermark=False, max_images=1):
         size_norm = self.normalize_size(size)
@@ -379,7 +379,7 @@ class VolcengineSeedream4MultiImageFusion(VolcengineImageGenerationBase):
     RETURN_TYPES = ("IMAGE", "STRING",)
     RETURN_NAMES = ("image", "info",)
     FUNCTION = "generate_image"
-    CATEGORY = "Doubao"
+    CATEGORY = "JmcAI/Doubao"
     
     def generate_image(self, api_key, model, prompt, images, size="2048×2048 (1:1)", sequential_image_generation="disabled", seed=-1, watermark=False, max_images=1):
         size_norm = self.normalize_size(size)
@@ -428,7 +428,7 @@ class VolcengineSeedream4StreamOutput(VolcengineImageGenerationBase):
     RETURN_TYPES = ("IMAGE", "STRING",)
     RETURN_NAMES = ("image", "info",)
     FUNCTION = "generate_image"
-    CATEGORY = "Doubao"
+    CATEGORY = "JmcAI/Doubao"
     
     def generate_image(self, api_key, model, prompt, size="2048×2048 (1:1)", sequential_image_generation="auto", seed=-1, watermark=False, max_images=3):
         size_norm = self.normalize_size(size)
