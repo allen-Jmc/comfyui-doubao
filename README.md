@@ -43,22 +43,6 @@
 - `Pillow`
 - `numpy`
 
-## ComfyUI-Manager 收录（可选）
-若希望在管理器搜索列表中直接出现本插件，请向索引仓库提交 PR：
-- 仓库：`https://github.com/ltdrdata/ComfyUI-Manager`
-- 文件：在根目录 `custom-node-list.json` 增加条目，示例：
-```json
-{
-  "author": "allen-Jmc",
-  "title": "ComfyUI JmcAI (Doubao/Seedream4)",
-  "id": "comfyui-jmcai",
-  "reference": "https://github.com/allen-Jmc/comfyui-jmcai",
-  "files": ["https://github.com/allen-Jmc/comfyui-jmcai"],
-  "install_type": "git-clone",
-  "description": "Multi-platform AI nodes. Currently Volcengine Doubao chat and Seedream 4.0 image generation."
-}
-```
-提交前，在管理器对话框启用 `Use local DB` 验证 JSON 无语法错误。
 
 ## 许可证
 - MIT（见 `LICENSE`）
