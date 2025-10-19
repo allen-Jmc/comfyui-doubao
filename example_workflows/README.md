@@ -26,7 +26,7 @@
 - `doubao_seedream4_stream_workflow.json`
 
 ## 常见问题
-- 搜不到节点：重启 ComfyUI；确认插件安装在 `custom_nodes/comfyui-jmcai`（或临时 `comfyui-doubao`）；检查启动日志是否有导入错误。
+- 搜不到节点：重启 ComfyUI；确认插件安装在 `custom_nodes/comfyui-jmcai`；检查启动日志是否有导入错误。
 - 400 或无图返回：检查 `api_key`/配额、尺寸参数选择是否一致、参考图尺寸与格式。
 
 ## 许可

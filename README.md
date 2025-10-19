@@ -20,11 +20,11 @@
   - `Doubao Seedream4 流式输出`
 
 ## 安装
-> 仓库重命名为 `comfyui-jmcai` 后，建议用新地址；若尚未完成重命名，可临时使用旧地址。
+> 仓库已重命名为 `comfyui-jmcai`，请使用新地址。
 
 - 通过 ComfyUI-Manager（URL 安装）：
   1. 打开 ComfyUI-Manager → `Install custom nodes`
-  2. 粘贴仓库地址：`https://github.com/allen-Jmc/comfyui-jmcai`（临时：`https://github.com/allen-Jmc/comfyui-doubao`）
+  2. 粘贴仓库地址：`https://github.com/allen-Jmc/comfyui-jmcai`
   3. 安装完成后重启 ComfyUI
 
 - 手动安装到 `custom_nodes`：
